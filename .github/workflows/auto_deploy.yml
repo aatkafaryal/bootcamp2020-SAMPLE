@@ -28,7 +28,7 @@ jobs:
         run: npm install --global surge
       
       - name: Deploy using surge
-        run: surge ./ botcampsamle.surge.sh --token $ {{secrets.TKN1}}
+        run: surge ./ botcampsamle.surge.sh --token $ {{secrets.TKN}}
         
         
           
