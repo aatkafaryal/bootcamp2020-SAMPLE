@@ -28,7 +28,7 @@ jobs:
         run: npm install --global surge
       
       - name: Deploy using surge
-        run: surge ./ botcampsamle.surge.sh --token "8db529d0210b49cc827e3d2f4ad10d06"
+        run: surge ./ botcampsamle.surge.sh --token ${{ secrets.MINE }}
         
         
           
